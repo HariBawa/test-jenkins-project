@@ -1,5 +1,5 @@
 pipeline {
-   agent any
+   agent {docker 'hsbawa-docker-mac'}
 
    stages {
        stage('Build') {
