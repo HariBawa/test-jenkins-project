@@ -5,6 +5,7 @@ pipeline {
          stage('Init') {
            steps {
                 sh 'echo $USER'
+                sh '/usr/local/bin/docker image list'
            }
        }
 
