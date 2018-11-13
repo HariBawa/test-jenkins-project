@@ -4,7 +4,7 @@ pipeline {
    stages {
          stage('Init') {
            steps {
-                sh 'docker image list'
+                sh '/usr/local/bin/docker image list'
            }
        }
 
